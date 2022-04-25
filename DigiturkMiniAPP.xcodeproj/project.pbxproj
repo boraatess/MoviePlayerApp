@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		337FD749280FA21B00C9EFAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD748280FA21B00C9EFAA /* AppDelegate.swift */; };
 		337FD74B280FA21B00C9EFAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD74A280FA21B00C9EFAA /* SceneDelegate.swift */; };
-		337FD74D280FA21B00C9EFAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD74C280FA21B00C9EFAA /* ViewController.swift */; };
-		337FD750280FA21B00C9EFAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337FD74E280FA21B00C9EFAA /* Main.storyboard */; };
 		337FD752280FA22400C9EFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337FD751280FA22400C9EFAA /* Assets.xcassets */; };
 		337FD755280FA22400C9EFAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337FD753280FA22400C9EFAA /* LaunchScreen.storyboard */; };
+		337FD75F280FA75D00C9EFAA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD75E280FA75D00C9EFAA /* NetworkManager.swift */; };
+		337FD764280FA7C900C9EFAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD763280FA7C900C9EFAA /* HomeViewController.swift */; };
+		337FD76628162B7A00C9EFAA /* HomeTableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD76528162B7A00C9EFAA /* HomeTableviewCell.swift */; };
+		337FD76B28162F5900C9EFAA /* GenresResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD76A28162F5900C9EFAA /* GenresResponse.swift */; };
+		337FD76D2816353B00C9EFAA /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD76C2816353B00C9EFAA /* HomeRouter.swift */; };
+		337FD7702816360A00C9EFAA /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD76F2816360A00C9EFAA /* MovieListViewController.swift */; };
+		337FD7722816365600C9EFAA /* MovieListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD7712816365600C9EFAA /* MovieListRouter.swift */; };
+		337FD7752816391200C9EFAA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD7742816391200C9EFAA /* Constants.swift */; };
+		337FD7772816396F00C9EFAA /* MovieListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD7762816396F00C9EFAA /* MovieListResponse.swift */; };
+		337FD77928163A7400C9EFAA /* MovieListTableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD77828163A7400C9EFAA /* MovieListTableviewCell.swift */; };
+		337FD77C28164B8800C9EFAA /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD77B28164B8800C9EFAA /* PlayerViewController.swift */; };
+		337FD77F28164D1000C9EFAA /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD77E28164D1000C9EFAA /* VideoPlayer.swift */; };
+		337FD782281652F200C9EFAA /* playlist.m3u8 in Resources */ = {isa = PBXBuildFile; fileRef = 337FD781281652F200C9EFAA /* playlist.m3u8 */; };
+		337FD7842816626300C9EFAA /* PlayerViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD7832816626300C9EFAA /* PlayerViewRouter.swift */; };
+		337FD787281664D100C9EFAA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FD786281664D100C9EFAA /* SplashViewController.swift */; };
+		E446B27F9C166F8618E2CEAB /* Pods_DigiturkMiniAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02710A9A0B63E7F7BFD93FD /* Pods_DigiturkMiniAPP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		265ED4291ECABAC6056E3F13 /* Pods-DigiturkMiniAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigiturkMiniAPP.release.xcconfig"; path = "Target Support Files/Pods-DigiturkMiniAPP/Pods-DigiturkMiniAPP.release.xcconfig"; sourceTree = "<group>"; };
 		337FD745280FA21B00C9EFAA /* DigiturkMiniAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigiturkMiniAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		337FD748280FA21B00C9EFAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		337FD74A280FA21B00C9EFAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		337FD74C280FA21B00C9EFAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		337FD74F280FA21B00C9EFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		337FD751280FA22400C9EFAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		337FD754280FA22400C9EFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		337FD756280FA22400C9EFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		337FD75E280FA75D00C9EFAA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		337FD763280FA7C900C9EFAA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		337FD76528162B7A00C9EFAA /* HomeTableviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableviewCell.swift; sourceTree = "<group>"; };
+		337FD76A28162F5900C9EFAA /* GenresResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresResponse.swift; sourceTree = "<group>"; };
+		337FD76C2816353B00C9EFAA /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		337FD76F2816360A00C9EFAA /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		337FD7712816365600C9EFAA /* MovieListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListRouter.swift; sourceTree = "<group>"; };
+		337FD7742816391200C9EFAA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		337FD7762816396F00C9EFAA /* MovieListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListResponse.swift; sourceTree = "<group>"; };
+		337FD77828163A7400C9EFAA /* MovieListTableviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableviewCell.swift; sourceTree = "<group>"; };
+		337FD77B28164B8800C9EFAA /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		337FD77E28164D1000C9EFAA /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		337FD781281652F200C9EFAA /* playlist.m3u8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = playlist.m3u8; sourceTree = "<group>"; };
+		337FD7832816626300C9EFAA /* PlayerViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewRouter.swift; sourceTree = "<group>"; };
+		337FD786281664D100C9EFAA /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		8E4F88C638EDE707D701E095 /* Pods-DigiturkMiniAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigiturkMiniAPP.debug.xcconfig"; path = "Target Support Files/Pods-DigiturkMiniAPP/Pods-DigiturkMiniAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		A02710A9A0B63E7F7BFD93FD /* Pods_DigiturkMiniAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigiturkMiniAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E446B27F9C166F8618E2CEAB /* Pods_DigiturkMiniAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +73,8 @@
 			children = (
 				337FD747280FA21B00C9EFAA /* DigiturkMiniAPP */,
 				337FD746280FA21B00C9EFAA /* Products */,
+				97595E1C816A1C12F18BFFEB /* Pods */,
+				7CA95E354A60E0DEB0A4F4BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +89,157 @@
 		337FD747280FA21B00C9EFAA /* DigiturkMiniAPP */ = {
 			isa = PBXGroup;
 			children = (
-				337FD748280FA21B00C9EFAA /* AppDelegate.swift */,
-				337FD74A280FA21B00C9EFAA /* SceneDelegate.swift */,
-				337FD74C280FA21B00C9EFAA /* ViewController.swift */,
-				337FD74E280FA21B00C9EFAA /* Main.storyboard */,
+				337FD780281652E800C9EFAA /* Videos */,
+				337FD76728162E9100C9EFAA /* Models */,
+				337FD761280FA78000C9EFAA /* Extensions */,
+				337FD75D280FA74A00C9EFAA /* Network */,
+				337FD75C280FA72D00C9EFAA /* Delegates */,
+				337FD760280FA76500C9EFAA /* Scenes */,
 				337FD751280FA22400C9EFAA /* Assets.xcassets */,
 				337FD753280FA22400C9EFAA /* LaunchScreen.storyboard */,
 				337FD756280FA22400C9EFAA /* Info.plist */,
 			);
 			path = DigiturkMiniAPP;
+			sourceTree = "<group>";
+		};
+		337FD75C280FA72D00C9EFAA /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				337FD748280FA21B00C9EFAA /* AppDelegate.swift */,
+				337FD74A280FA21B00C9EFAA /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		337FD75D280FA74A00C9EFAA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				337FD75E280FA75D00C9EFAA /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		337FD760280FA76500C9EFAA /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				337FD785281664BF00C9EFAA /* Splash */,
+				337FD77D28164D0200C9EFAA /* VideoPlayer */,
+				337FD77A28164B7600C9EFAA /* Player */,
+				337FD762280FA7BB00C9EFAA /* Main */,
+				337FD76E281635EE00C9EFAA /* MovieList */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		337FD761280FA78000C9EFAA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				337FD7732816390600C9EFAA /* Constants */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		337FD762280FA7BB00C9EFAA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				337FD763280FA7C900C9EFAA /* HomeViewController.swift */,
+				337FD76528162B7A00C9EFAA /* HomeTableviewCell.swift */,
+				337FD76C2816353B00C9EFAA /* HomeRouter.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		337FD76728162E9100C9EFAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				337FD76928162F4D00C9EFAA /* Request */,
+				337FD76828162F4500C9EFAA /* Response */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		337FD76828162F4500C9EFAA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				337FD76A28162F5900C9EFAA /* GenresResponse.swift */,
+				337FD7762816396F00C9EFAA /* MovieListResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		337FD76928162F4D00C9EFAA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		337FD76E281635EE00C9EFAA /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				337FD76F2816360A00C9EFAA /* MovieListViewController.swift */,
+				337FD7712816365600C9EFAA /* MovieListRouter.swift */,
+				337FD77828163A7400C9EFAA /* MovieListTableviewCell.swift */,
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		337FD7732816390600C9EFAA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				337FD7742816391200C9EFAA /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		337FD77A28164B7600C9EFAA /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				337FD77B28164B8800C9EFAA /* PlayerViewController.swift */,
+				337FD7832816626300C9EFAA /* PlayerViewRouter.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		337FD77D28164D0200C9EFAA /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				337FD77E28164D1000C9EFAA /* VideoPlayer.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		337FD780281652E800C9EFAA /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				337FD781281652F200C9EFAA /* playlist.m3u8 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		337FD785281664BF00C9EFAA /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				337FD786281664D100C9EFAA /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		7CA95E354A60E0DEB0A4F4BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A02710A9A0B63E7F7BFD93FD /* Pods_DigiturkMiniAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97595E1C816A1C12F18BFFEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F88C638EDE707D701E095 /* Pods-DigiturkMiniAPP.debug.xcconfig */,
+				265ED4291ECABAC6056E3F13 /* Pods-DigiturkMiniAPP.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 337FD759280FA22400C9EFAA /* Build configuration list for PBXNativeTarget "DigiturkMiniAPP" */;
 			buildPhases = (
+				29496EAB5E5509C85FAE0D5A /* [CP] Check Pods Manifest.lock */,
 				337FD741280FA21B00C9EFAA /* Sources */,
 				337FD742280FA21B00C9EFAA /* Frameworks */,
 				337FD743280FA21B00C9EFAA /* Resources */,
+				8A14F0DCDD8BC0FE087666C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +304,81 @@
 			files = (
 				337FD755280FA22400C9EFAA /* LaunchScreen.storyboard in Resources */,
 				337FD752280FA22400C9EFAA /* Assets.xcassets in Resources */,
-				337FD750280FA21B00C9EFAA /* Main.storyboard in Resources */,
+				337FD782281652F200C9EFAA /* playlist.m3u8 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29496EAB5E5509C85FAE0D5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigiturkMiniAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A14F0DCDD8BC0FE087666C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigiturkMiniAPP/Pods-DigiturkMiniAPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigiturkMiniAPP/Pods-DigiturkMiniAPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigiturkMiniAPP/Pods-DigiturkMiniAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		337FD741280FA21B00C9EFAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				337FD74D280FA21B00C9EFAA /* ViewController.swift in Sources */,
+				337FD77F28164D1000C9EFAA /* VideoPlayer.swift in Sources */,
+				337FD76B28162F5900C9EFAA /* GenresResponse.swift in Sources */,
+				337FD764280FA7C900C9EFAA /* HomeViewController.swift in Sources */,
+				337FD76D2816353B00C9EFAA /* HomeRouter.swift in Sources */,
+				337FD7702816360A00C9EFAA /* MovieListViewController.swift in Sources */,
+				337FD7722816365600C9EFAA /* MovieListRouter.swift in Sources */,
+				337FD7772816396F00C9EFAA /* MovieListResponse.swift in Sources */,
+				337FD77928163A7400C9EFAA /* MovieListTableviewCell.swift in Sources */,
+				337FD77C28164B8800C9EFAA /* PlayerViewController.swift in Sources */,
+				337FD7752816391200C9EFAA /* Constants.swift in Sources */,
+				337FD75F280FA75D00C9EFAA /* NetworkManager.swift in Sources */,
+				337FD7842816626300C9EFAA /* PlayerViewRouter.swift in Sources */,
+				337FD76628162B7A00C9EFAA /* HomeTableviewCell.swift in Sources */,
 				337FD749280FA21B00C9EFAA /* AppDelegate.swift in Sources */,
 				337FD74B280FA21B00C9EFAA /* SceneDelegate.swift in Sources */,
+				337FD787281664D100C9EFAA /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		337FD74E280FA21B00C9EFAA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				337FD74F280FA21B00C9EFAA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		337FD753280FA22400C9EFAA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +506,7 @@
 		};
 		337FD75A280FA22400C9EFAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4F88C638EDE707D701E095 /* Pods-DigiturkMiniAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +517,6 @@
 				INFOPLIST_FILE = DigiturkMiniAPP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +534,7 @@
 		};
 		337FD75B280FA22400C9EFAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 265ED4291ECABAC6056E3F13 /* Pods-DigiturkMiniAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +545,6 @@
 				INFOPLIST_FILE = DigiturkMiniAPP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
